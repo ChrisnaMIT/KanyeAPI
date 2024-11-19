@@ -3,16 +3,20 @@ html, body{
     padding: 0;
 }
 
-.container{
+
+.box{
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin: 100px;
+    justify-content: center;
+    padding-top: 300px;
 }
 
-.text{
+.bouton{
+    display: flex;
+    align-items: start;
+}
+
+.titre{
     display: flex;
     justify-content: center;
-    align-items: center;
-    font-size: 30px;
 }

@@ -1,20 +1,20 @@
- let button = document.querySelector('.bouton')
- let text = document.querySelector('.texte')
+ const button = document.querySelector('.bouton')
+ const text = document.querySelector('.texte')
 
-
- button.addEventListener('click', blague)
 
 
 function blague(){
     fetch('https://api.kanye.rest')
         .then(res => res.json())
-        .then(json => console.log(json))
-        .then(data => text.innerHTML = data)
+        .then(data => text.innerHTML = data.quote)
 
 }
+
+ button.addEventListener('click', blague)
 
 
  //fetch('https://api.kanye.rest')
     // .then(res => res.json())
     // .then(json => console.log(json))
  //text.innerHTML= (json);
+ // .then(json => console.log(json))
