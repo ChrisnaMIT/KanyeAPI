@@ -8,15 +8,14 @@ html, body{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 300px;
-}
-
-.bouton{
-    display: flex;
-    align-items: start;
+    padding-top: 50px;
 }
 
 .titre{
     display: flex;
     justify-content: center;
+}
+
+.bouton{
+
 }
